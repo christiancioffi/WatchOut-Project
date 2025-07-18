@@ -1,0 +1,219 @@
+SmartWatch/Game/Position.java
+ SmartWatch.Game.Position
+SmartWatch/SensorManagement/AverageCalculator.java
+ SmartWatch.SensorManagement.AverageCalculator
+SmartWatch/MainThreads/DebugSleep.java
+ SmartWatch.MainThreads.DebugSleep
+SmartWatch/MainThreads/WaitNewMessagesThread.java
+ SmartWatch.MainThreads.WaitNewMessagesThread
+SmartWatch/Game/Status.java
+ SmartWatch.Game.Status
+SmartWatch/ElectionManagement/ElectionMessageThread.java
+ SmartWatch.ElectionManagement.ElectionMessageThread
+AdministrationServer/StartServer.java
+ AdministrationServer.StartServer
+AdministrationServer/HeartRateService.java
+ AdministrationServer.HeartRateService
+SmartWatch/Sensor/Measurement.java
+ SmartWatch.Sensor.Measurement
+SmartWatch/Sensor/HRSimulator.java
+ SmartWatch.Sensor.HRSimulator
+SmartWatch/SensorManagement/HRMeasurement.java
+ SmartWatch.SensorManagement.HRMeasurement
+SmartWatch/Game/Player.java
+ SmartWatch.Game.Player
+AdministrationServer/ResultComputationBuffer.java
+ AdministrationServer.ResultComputationBuffer
+SmartWatch/ElectionManagement/CoordinatorMessageThread.java
+ SmartWatch.ElectionManagement.CoordinatorMessageThread
+SmartWatch/SensorManagement/StatisticsManager.java
+ SmartWatch.SensorManagement.StatisticsManager
+SmartWatch/SensorManagement/BufferImpl.java
+ SmartWatch.SensorManagement.BufferImpl
+GameService.java
+ GameService
+grpc/mutualExclusion/MutualExclusionGrpc.java
+ grpc.mutualExclusion.MutualExclusionGrpc
+ grpc.mutualExclusion.MutualExclusionGrpc$1
+ grpc.mutualExclusion.MutualExclusionGrpc$MethodHandlers
+ grpc.mutualExclusion.MutualExclusionGrpc$MutualExclusionBaseDescriptorSupplier
+ grpc.mutualExclusion.MutualExclusionGrpc$MutualExclusionBlockingStub
+ grpc.mutualExclusion.MutualExclusionGrpc$MutualExclusionFileDescriptorSupplier
+ grpc.mutualExclusion.MutualExclusionGrpc$MutualExclusionFutureStub
+ grpc.mutualExclusion.MutualExclusionGrpc$MutualExclusionImplBase
+ grpc.mutualExclusion.MutualExclusionGrpc$MutualExclusionMethodDescriptorSupplier
+ grpc.mutualExclusion.MutualExclusionGrpc$MutualExclusionStub
+grpc/game/GameService.java
+ grpc.game.GameService
+ grpc.game.GameService$1
+ grpc.game.GameService$ResponseStatusMessage
+ grpc.game.GameService$ResponseStatusMessage$1
+ grpc.game.GameService$ResponseStatusMessage$Builder
+ grpc.game.GameService$ResponseStatusMessageOrBuilder
+ grpc.game.GameService$ResponseTagMessage
+ grpc.game.GameService$ResponseTagMessage$1
+ grpc.game.GameService$ResponseTagMessage$Builder
+ grpc.game.GameService$ResponseTagMessageOrBuilder
+ grpc.game.GameService$StatusMessage
+ grpc.game.GameService$StatusMessage$1
+ grpc.game.GameService$StatusMessage$Builder
+ grpc.game.GameService$StatusMessageOrBuilder
+ grpc.game.GameService$TagMessage
+ grpc.game.GameService$TagMessage$1
+ grpc.game.GameService$TagMessage$Builder
+ grpc.game.GameService$TagMessageOrBuilder
+grpc/election/ElectionGrpc.java
+ grpc.election.ElectionGrpc
+ grpc.election.ElectionGrpc$1
+ grpc.election.ElectionGrpc$ElectionBaseDescriptorSupplier
+ grpc.election.ElectionGrpc$ElectionBlockingStub
+ grpc.election.ElectionGrpc$ElectionFileDescriptorSupplier
+ grpc.election.ElectionGrpc$ElectionFutureStub
+ grpc.election.ElectionGrpc$ElectionImplBase
+ grpc.election.ElectionGrpc$ElectionMethodDescriptorSupplier
+ grpc.election.ElectionGrpc$ElectionStub
+ grpc.election.ElectionGrpc$MethodHandlers
+AdministrationServer/PlayerService.java
+ AdministrationServer.PlayerService
+AdministrationServer/Beans/ResponseAddPlayer.java
+ AdministrationServer.Beans.ResponseAddPlayer
+SmartWatch/GlobalDataStructures/Base.java
+ SmartWatch.GlobalDataStructures.Base
+SmartWatch/Initialization/SubscribeMQTTThread.java
+ SmartWatch.Initialization.SubscribeMQTTThread
+ SmartWatch.Initialization.SubscribeMQTTThread$1
+AdministrationServer/Beans/ResponseGetAllPlayers.java
+ AdministrationServer.Beans.ResponseGetAllPlayers
+SmartWatch/ElectionManagement/OkQueue.java
+ SmartWatch.ElectionManagement.OkQueue
+SmartWatch/GlobalDataStructures/PlayerInfo.java
+ SmartWatch.GlobalDataStructures.PlayerInfo
+AdministrationServer/Lobby.java
+ AdministrationServer.Lobby
+grpc/presentation/PresentationGrpc.java
+ grpc.presentation.PresentationGrpc
+ grpc.presentation.PresentationGrpc$1
+ grpc.presentation.PresentationGrpc$MethodHandlers
+ grpc.presentation.PresentationGrpc$PresentationBaseDescriptorSupplier
+ grpc.presentation.PresentationGrpc$PresentationBlockingStub
+ grpc.presentation.PresentationGrpc$PresentationFileDescriptorSupplier
+ grpc.presentation.PresentationGrpc$PresentationFutureStub
+ grpc.presentation.PresentationGrpc$PresentationImplBase
+ grpc.presentation.PresentationGrpc$PresentationMethodDescriptorSupplier
+ grpc.presentation.PresentationGrpc$PresentationStub
+AdministrationServer/StatisticsCollection.java
+ AdministrationServer.StatisticsCollection
+SmartWatch/Game/StatusThread.java
+ SmartWatch.Game.StatusThread
+AdministrationServer/AdministrationClientService.java
+ AdministrationServer.AdministrationClientService
+grpc/election/ElectionService.java
+ grpc.election.ElectionService
+ grpc.election.ElectionService$1
+ grpc.election.ElectionService$CoordinatorMessage
+ grpc.election.ElectionService$CoordinatorMessage$1
+ grpc.election.ElectionService$CoordinatorMessage$Builder
+ grpc.election.ElectionService$CoordinatorMessageOrBuilder
+ grpc.election.ElectionService$ElectionMessage
+ grpc.election.ElectionService$ElectionMessage$1
+ grpc.election.ElectionService$ElectionMessage$Builder
+ grpc.election.ElectionService$ElectionMessageOrBuilder
+ grpc.election.ElectionService$OkMessage
+ grpc.election.ElectionService$OkMessage$1
+ grpc.election.ElectionService$OkMessage$Builder
+ grpc.election.ElectionService$OkMessageOrBuilder
+SmartWatch/ElectionManagement/Status.java
+ SmartWatch.ElectionManagement.Status
+SmartWatch/MutualExclusionManagement/MutualExclusionServiceImpl.java
+ SmartWatch.MutualExclusionManagement.MutualExclusionServiceImpl
+SmartWatch/Game/TagThread.java
+ SmartWatch.Game.TagThread
+grpc/game/GameGrpc.java
+ grpc.game.GameGrpc
+ grpc.game.GameGrpc$1
+ grpc.game.GameGrpc$GameBaseDescriptorSupplier
+ grpc.game.GameGrpc$GameBlockingStub
+ grpc.game.GameGrpc$GameFileDescriptorSupplier
+ grpc.game.GameGrpc$GameFutureStub
+ grpc.game.GameGrpc$GameImplBase
+ grpc.game.GameGrpc$GameMethodDescriptorSupplier
+ grpc.game.GameGrpc$GameStub
+ grpc.game.GameGrpc$MethodHandlers
+AdministrationClient/AdminClient.java
+ AdministrationClient.AdminClient
+SmartWatch/MutualExclusionManagement/Status.java
+ SmartWatch.MutualExclusionManagement.Status
+AdministrationServer/Beans/ResponseGetAveragePlayersHRValuesBetweenTimestamps.java
+ AdministrationServer.Beans.ResponseGetAveragePlayersHRValuesBetweenTimestamps
+SmartWatch/MutualExclusionManagement/MutualExclusionThread.java
+ SmartWatch.MutualExclusionManagement.MutualExclusionThread
+grpc/presentation/PresentationService.java
+ grpc.presentation.PresentationService
+ grpc.presentation.PresentationService$1
+ grpc.presentation.PresentationService$PlayerPar
+ grpc.presentation.PresentationService$PlayerPar$1
+ grpc.presentation.PresentationService$PlayerPar$Builder
+ grpc.presentation.PresentationService$PlayerParOrBuilder
+ grpc.presentation.PresentationService$PositionPar
+ grpc.presentation.PresentationService$PositionPar$1
+ grpc.presentation.PresentationService$PositionPar$Builder
+ grpc.presentation.PresentationService$PositionParOrBuilder
+ grpc.presentation.PresentationService$PresentationMessage
+ grpc.presentation.PresentationService$PresentationMessage$1
+ grpc.presentation.PresentationService$PresentationMessage$Builder
+ grpc.presentation.PresentationService$PresentationMessageOrBuilder
+ grpc.presentation.PresentationService$PresentationResponse
+ grpc.presentation.PresentationService$PresentationResponse$1
+ grpc.presentation.PresentationService$PresentationResponse$Builder
+ grpc.presentation.PresentationService$PresentationResponseOrBuilder
+SmartWatch/SensorManagement/AveragesList.java
+ SmartWatch.SensorManagement.AveragesList
+SmartWatch/Sensor/Simulator.java
+ SmartWatch.Sensor.Simulator
+AdministrationServer/Beans/ResponseGetAveragePlayerHRValues.java
+ AdministrationServer.Beans.ResponseGetAveragePlayerHRValues
+grpc/mutualExclusion/MutualExclusionService.java
+ grpc.mutualExclusion.MutualExclusionService
+ grpc.mutualExclusion.MutualExclusionService$1
+ grpc.mutualExclusion.MutualExclusionService$MERequest
+ grpc.mutualExclusion.MutualExclusionService$MERequest$1
+ grpc.mutualExclusion.MutualExclusionService$MERequest$Builder
+ grpc.mutualExclusion.MutualExclusionService$MERequestOrBuilder
+ grpc.mutualExclusion.MutualExclusionService$OkResponse
+ grpc.mutualExclusion.MutualExclusionService$OkResponse$1
+ grpc.mutualExclusion.MutualExclusionService$OkResponse$Builder
+ grpc.mutualExclusion.MutualExclusionService$OkResponseOrBuilder
+SmartWatch/Sensor/Buffer.java
+ SmartWatch.Sensor.Buffer
+AdministrationServer/AveragePlayerHRValuesThread.java
+ AdministrationServer.AveragePlayerHRValuesThread
+SmartWatch/Game/PlayerStatus.java
+ SmartWatch.Game.PlayerStatus
+AdministrationServer/AveragePlayersHRValuesBetweenTimestampsThread.java
+ AdministrationServer.AveragePlayersHRValuesBetweenTimestampsThread
+SmartWatch/ElectionManagement/ElectionServiceImpl.java
+ SmartWatch.ElectionManagement.ElectionServiceImpl
+SmartWatch/ElectionManagement/ElectionThread.java
+ SmartWatch.ElectionManagement.ElectionThread
+SmartWatch/Game/PlayerThread.java
+ SmartWatch.Game.PlayerThread
+SmartWatch/Initialization/RegistrationToServerThread.java
+ SmartWatch.Initialization.RegistrationToServerThread
+SmartWatch/Initialization/PresentationThread.java
+ SmartWatch.Initialization.PresentationThread
+SmartWatch/GlobalDataStructures/GameSession.java
+ SmartWatch.GlobalDataStructures.GameSession
+SmartWatch/Initialization/PresentationServiceImpl.java
+ SmartWatch.Initialization.PresentationServiceImpl
+SmartWatch/Game/GameServiceImpl.java
+ SmartWatch.Game.GameServiceImpl
+SmartWatch/GlobalDataStructures/GameOverBoolean.java
+ SmartWatch.GlobalDataStructures.GameOverBoolean
+SmartWatch/MutualExclusionManagement/MutualExclusionStatus.java
+ SmartWatch.MutualExclusionManagement.MutualExclusionStatus
+SmartWatch/ElectionManagement/Election.java
+ SmartWatch.ElectionManagement.Election
+SmartWatch/ElectionManagement/ElectionStatus.java
+ SmartWatch.ElectionManagement.ElectionStatus
+SmartWatch/MainThreads/Main.java
+ SmartWatch.MainThreads.Main

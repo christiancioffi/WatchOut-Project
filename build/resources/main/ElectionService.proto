@@ -1,0 +1,19 @@
+syntax="proto3";
+package grpc.election;
+
+message ElectionMessage {
+  int32 bulliedId = 1;    //Only for debugging purpose
+}
+
+message CoordinatorMessage {
+  int32 seekerId = 1;
+}
+
+message OkMessage {
+  bool ack = 1;
+}
+
+service Election{
+  rpc isOnline(ElectionMessage) returns (OkMessage);
+  rpc setCoordinator(CoordinatorMessage) returns (OkMessage);
+}

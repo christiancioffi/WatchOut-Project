@@ -1,0 +1,25 @@
+syntax="proto3";
+package grpc.game;
+
+message StatusMessage {
+  int32 peerId = 1;
+  string status = 2;
+}
+
+message TagMessage {
+
+}
+
+
+message ResponseTagMessage {
+  bool tagged = 1;
+}
+
+message ResponseStatusMessage {
+
+}
+
+service Game{
+  rpc tag(TagMessage) returns (ResponseTagMessage);
+  rpc tellMeYourStatus(StatusMessage) returns (ResponseStatusMessage);
+}

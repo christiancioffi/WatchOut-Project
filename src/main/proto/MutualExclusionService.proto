@@ -1,0 +1,15 @@
+syntax="proto3";
+package grpc.mutualExclusion;
+
+message MERequest {
+  int32 peerId = 1;
+  uint64 timestamp = 2;
+}
+
+message OkResponse {
+
+}
+
+service MutualExclusion{
+  rpc letMeAccessTheBase(MERequest) returns (OkResponse);
+}

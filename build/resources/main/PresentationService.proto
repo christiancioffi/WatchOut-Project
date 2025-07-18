@@ -1,0 +1,35 @@
+syntax="proto3";
+package grpc.presentation;
+
+/*enum Status {
+    Not_Tagged=0;
+    Tagged=1;
+    Winner=2;
+}*/
+
+message PlayerPar {
+  int32 id = 1;
+  string ip = 2;
+  int32 port = 3;
+}
+
+message PositionPar {
+  int32 x = 1;
+  int32 y = 2;
+}
+
+message PresentationMessage {
+  PlayerPar playerPar = 1;
+  PositionPar positionPar = 2;
+}
+
+message PresentationResponse {
+  int32 seekerId = 1;
+  string peerStatus = 2;
+  bool gameEnded = 3;
+
+}
+
+service Presentation{
+  rpc presentation(PresentationMessage) returns (PresentationResponse);
+}
